@@ -1,8 +1,8 @@
 import sys
 import time
 import gevent
-import socket
-from gevent import monkey
+# 注意使用socket要是gevent封装的
+from gevent import socket, monkey
 
 monkey.patch_all()
 
